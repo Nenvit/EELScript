@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: EELScript
+Version: 1.0.0
+Summary: EELScript is an esoteric expression language.
+Author-email: "Micah Richardson (NenvitCodes)" <nenvitcodes@outlook.com>
+Requires-Python: >=3.10

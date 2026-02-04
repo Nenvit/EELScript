@@ -1,0 +1,26 @@
+[project]
+name = "EELScript"
+version = "1.0.0"
+description = """
+EELScript is an esoteric expression language.
+It is a custom language designed by Micah Richardson (NenvitCodes)
+as a personal project. The language is very restrictive in its purpose,
+which is to be a manipulative interface for many grids running
+Conway's Game of Life.
+"""
+
+authors = [
+    { name = "Micah Richardson (NenvitCodes)", email = "nenvitcodes@outlook.com" }
+]
+
+readme = "README"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["eel", "eel.runtime", "eel.transformer"]
+
+[project.scripts]
+eel = "eel.__main__:main"
