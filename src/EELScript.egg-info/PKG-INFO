@@ -3,4 +3,25 @@ Name: EELScript
 Version: 1.0.0
 Summary: EELScript is an esoteric expression language.
 Author-email: "Micah Richardson (NenvitCodes)" <nenvitcodes@outlook.com>
+License: Copyright (c) 2026 Micah Richardson
+        All rights reserved.
+        
+        Permission is granted to use this software for personal, non-commercial purposes.
+        Redistribution, modification, or commercial use of this software is prohibited
+        without explicit written permission from the copyright holder.
+        
+        This software is provided "as is", without warranty of any kind.
 Requires-Python: >=3.10
+License-File: LICENSE
+Dynamic: license-file
+
+#Notes
+- Do not get scared of the compiler. They're only digital engines and not real people. They can not hurt you, no matter how much they want to.
+
+#Running EELScript
+- Make sure the included `eelscript.bat` file is registered in your system's PATH. To run directly from double-clicking on the file.
+- Use `eel  $ eel *path_or_filename* [--strict] [--var | --json | --both ] [--dict] | [--help]` to run from the terminal.
+
+#Licensing
+EELScript is distributed under a proprietary license. See LICENSE for details.
+EELScript™ is a common-law trademark of Nenvit Codes.

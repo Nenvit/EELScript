@@ -41,11 +41,7 @@ def brackethatch(fio):
     btmask  = unpack(f'<{len(code)}B', code)
     print(f"[BH] =>", 
             f"Status: {status[0]:X} ({'\033[32m\033[1mOK\033[0m\x07' if status[0] == 10 else '\033[31m\033[1mNot OK\033[0m'})",
-            f"Starts: {starts}",
-            f"Stops:  {stahps}",
-            f"Bitmask: {btmask}",
             f"Text: \033[1m{pretty.replace(b'\0', b' ').decode('ascii')}\033[0m",
-            f"MAP: {[CODE_MAP[_] for _ in btmask]}",
             sep='\n\t')
     return status, btmask, starts, stahps, pretty
 

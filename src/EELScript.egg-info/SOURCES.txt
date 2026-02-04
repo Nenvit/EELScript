@@ -1,3 +1,5 @@
+LICENSE
+README
 pyproject.toml
 src/EELScript.egg-info/PKG-INFO
 src/EELScript.egg-info/SOURCES.txt

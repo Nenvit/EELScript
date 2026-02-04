@@ -194,7 +194,6 @@ def execute(pkg, vm): return route(pkg)(pkg, vm)
 
 @eval.debug
 def route(inp):
-    print(inp)
     bits, *_, tkns = inp
     if not bits: return
 
