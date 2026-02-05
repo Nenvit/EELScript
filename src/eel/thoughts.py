@@ -1,5 +1,4 @@
 import math, random
-from . import interval
 
 STABLE = 'stable'
 CHOATIC = 'choatic'
@@ -482,14 +481,6 @@ class Eel:
                        for _ in range(self._size)]
                        for _ in range(self._size)]
         self.__imortal = True
-
-    def live(self, max=20, ivl=3000):
-        self.__interval = interval.Interval(func=self.think, tick=ivl, repeat=max)
-        self.__interval.start()
-    def die(self):
-        if isinstance(self.__interval, interval.Interval):
-            self.__interval.stop()
-            self.__interval = None
     def write(self, thought=Thought(), loc=(0, 0, 0), dir=1, merge=False):
         size = thought.size
         id = thought.id
