@@ -1,10 +1,10 @@
-#Notes
+# Notes
 - Do not get scared of the compiler. They're only digital engines and not real people. They can not hurt you, no matter how much they want to.
 
-#Running EELScript
+# Running EELScript
 - Make sure the included `eelscript.bat` file is registered in your system's PATH. To run directly from double-clicking on the file.
 - Use `eel  $ eel *path_or_filename* [--strict] [--var | --json | --both ] [--dict] | [--help]` to run from the terminal.
 
-#Licensing
+# Licensing
 EELScript is distributed under a proprietary license. See LICENSE for details.
 EELScript™ is a common-law trademark of Nenvit Codes.
