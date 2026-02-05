@@ -276,5 +276,10 @@ def tokens(package):
         elif mask == KSTR:
             yield String(tkn)
 
+        elif mask == KCLS:
+            if   tkn == b'colony': return Colony()
+            elif tkn == b'tubeel': return Tubeel()
+            elif tkn == b'eel':    return Eel()
+
         else:
             yield tkn.tobytes()
